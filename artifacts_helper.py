@@ -2,7 +2,7 @@ import joblib
 import numpy as np
 import pandas as pd
 
-model_data = joblib.load("../artifacts/model_data.joblib")
+model_data = joblib.load("artifacts/model_data.joblib")
 
 model = model_data['model']
 features = model_data['features']
